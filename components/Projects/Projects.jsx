@@ -6,62 +6,71 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const PROJECTS = [
   {
-    name: "Population Analysis",
-    href: "https://github.com/AbdelruhmanAshraf/Population-Analysis",
-    kind: "GitHub",
+    name: "Royal Wedding Experience (Asem & Yara)",
+    href: "https://shaker15s.github.io/weedy-ramo/",
+    kind: "Live Web App",
   },
   {
-    name: "Titanic EDA",
-    href: "https://github.com/AbdelruhmanAshraf/Titanic-EDA",
-    kind: "GitHub",
+    name: "SNAI Digital Bookstore & E-Commerce",
+    href: "https://snai.pythonanywhere.com/category/",
+    kind: "Live E-Commerce",
   },
   {
-    name: "Bank Decision Tree",
-    href: "https://github.com/AbdelruhmanAshraf/bank_decision_tree",
-    kind: "GitHub",
+    name: "Interactive 3D Developer Portfolio",
+    href: "https://shaker17s.github.io/3d_portfolio/#projects",
+    kind: "Live 3D WebGL",
   },
   {
-    name: "Screen Time Analysis",
-    href: "https://github.com/AbdelruhmanAshraf/screen-time-analysis",
-    kind: "GitHub",
+    name: "Bots LT Proposal Interactive Suite",
+    href: "https://bots.lt/Tools/Propose/#",
+    kind: "Live Web Tool",
   },
   {
-    name: "Weather Forecasting Using Python",
-    href: "https://github.com/AbdelruhmanAshraf/weather-forecasting-using-python",
-    kind: "GitHub",
+    name: "Valentein Interactive Web Experience",
+    href: "https://shaker17s.github.io/Valenteinn/",
+    kind: "Live Web App",
   },
   {
-    name: "Flower Recognition",
-    href: "https://github.com/AbdelruhmanAshraf/Flower-Recognition",
-    kind: "GitHub",
+    name: "AI-Driven Recruitment Ecosystem",
+    href: "https://github.com/Shaker17s",
+    kind: "Full-Stack AI",
   },
   {
-    name: "Elgana Platform",
-    href: "https://elgana.fit/",
-    kind: "Live",
+    name: "Air Canvas — Gesture Drawing App",
+    href: "https://github.com/Shaker17s",
+    kind: "Computer Vision",
+  },
+  {
+    name: "End-to-End Data Analytics Pipeline",
+    href: "https://github.com/Shaker17s",
+    kind: "ETL / Data Analytics",
   },
 ];
 
 const VENTURES = [
   {
-    name: "Rokn Podcast",
-    role: "Founder",
-    href: null,
-    kind: "Maintenance",
-  },
-  {
-    name: "Dietin",
-    role: "CTO & AI Backend Developer",
-    href: "https://dietin.pro",
-    kind: "Live",
-  },
-  {
-    name: "Wagha INC",
-    role: "Co-Founder",
-    href: null,
+    name: "AI & LLM Solutions",
+    role: "AI Engineer & Prompt Architect",
+    href: "https://github.com/Shaker17s",
     kind: "Active",
     note:
-      "Digital solutions for businesses, from concept to execution, including branding, development, and AI powered systems.",
+      "Designing custom RAG workflows, ChatGPT API integrations, and Chain-of-Thought prompting systems for clients.",
+  },
+  {
+    name: "Full-Stack Web Development",
+    role: "Lead Web Developer",
+    href: "https://github.com/Shaker17s",
+    kind: "Active",
+    note:
+      "Engineering modern Next.js, React, and Django web platforms with optimized sub-100ms database response times.",
+  },
+  {
+    name: "Data Analytics & BI",
+    role: "Data & ETL Specialist",
+    href: "https://github.com/Shaker17s",
+    kind: "Active",
+    note:
+      "Transforming complex datasets with Python, SQL, and interactive Power BI dashboards to empower business decisions.",
   },
 ];
 

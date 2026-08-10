@@ -1,112 +1,108 @@
-# Elfekky Portfolio
+# 🌟 Shaker Abdallah Tasaheed — 3D Interactive Neural Portfolio
 
-A stunning, interactive portfolio website for Elfekky featuring advanced animations, 3D elements, and smooth user experience.
+[![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-WebGL-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38BDF8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![GSAP](https://img.shields.io/badge/GSAP-Animations-green?style=for-the-badge&logo=greensock)](https://greensock.com/gsap/)
 
-## 🌐 Live Demo
+A state-of-the-art, interactive 3D WebGL personal portfolio engineered for **Shaker Abdallah Tasaheed** — Full-Stack Web Developer, AI & Machine Learning Engineer, and Data Analytics Specialist.
 
-Check out the live demo at [elfekky.site](https://elfekky.site)
-<img width="1896" height="948" alt="image" src="https://github.com/user-attachments/assets/31470f48-4acb-4d4b-a528-34cfd3b3ef7f" />
-<img width="1895" height="946" alt="image" src="https://github.com/user-attachments/assets/d6e4f7e9-671d-4d63-94c5-c4752dbd9c78" />
-<img width="1899" height="948" alt="image" src="https://github.com/user-attachments/assets/c4f134d2-9436-46b9-b662-cbda60c40626" />
-<img width="1864" height="928" alt="image" src="https://github.com/user-attachments/assets/250e09e4-c259-4d69-a8b3-2438179096d1" />
+---
 
-## 👨‍💻 Developer & Project Context
+## 🚀 Key Features & Highlights
 
-This project was developed by [Mtarif](https://mtarif.com) for a client. 
+- **⚡ Immersive WebGL & LiquidEther Background**: Custom 3D particle and fluid canvas interactive simulation driven by mouse motion.
+- **🎨 Modern Aesthetic & Smooth Scrolling**: Powered by **Lenis**, **GSAP ScrollTrigger**, and **Framer Motion** for a liquid-smooth experience.
+- **👨‍💻 Personal Profile Integration**: Showcasing real-world full-stack platforms, computer vision applications, and data analytics pipelines.
+- **📱 Fully Responsive**: Custom mobile drawer navigation and touch-optimized gyroscope/parallax physics.
+- **🌙 Dynamic Theme System**: Built-in light and dark mode switching with zero-flash pre-paint bootstrap script.
 
-For work inquiries or contact:
-- **Website**: [www.mtarif.com](https://www.mtarif.com)
-- **Contact for Work**: [www.mtarif.com](https://www.mtarif.com)
+---
 
-## ✨ Features
+## 🛠️ Tech Stack & Architecture
 
-- **Modern Next.js Architecture**: Built with Next.js 14 for optimal performance
-- **3D Elements**: Interactive 3D components using React Three Fiber and Spline
-- **Advanced Animations**: Smooth animations powered by GSAP and Framer Motion
-- **Smooth Scrolling**: Enhanced scrolling experience with Lenis
-- **Responsive Design**: Fully responsive across all devices
-- **Interactive Components**: 
-  - Hero section with dynamic content
-  - Featured work showcase
-  - Horizontal scrolling sections
-  - Contact form
-  - Particle effects
-  - Gradual blur effects
+- **Core Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **3D & Canvas Graphics**: WebGL, `@react-three/fiber`, `@react-three/drei`, LiquidEther Shaders
+- **Animation Engines**: GSAP, Framer Motion, React Spring
+- **Smooth Scroll**: Lenis
+- **Styling**: Tailwind CSS & CSS Custom Properties
+- **Deployment**: Vercel / GitHub Pages
 
-## 🛠️ Tech Stack
+---
 
-- **Framework**: Next.js 14
-- **3D Graphics**: React Three Fiber, React Three Drei, Spline
-- **Animations**: GSAP, Framer Motion, React Spring
-- **Styling**: Tailwind CSS
-- **Utilities**: Lenis (smooth scrolling), Parallax.js
-
-## 📦 Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/tefooh/elfekky-portfolio.git
-cd elfekky-portfolio
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## 🚀 Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
-elfekky-portfolio/
+portfolioo/
 ├── app/
-│   ├── about/
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js
+│   ├── about/            # Dedicated About page with 3D Canvas
+│   ├── globals.css       # Theme tokens, typography & CSS variables
+│   ├── layout.js         # Root layout, font configuration & metadata
+│   └── page.js           # Main landing page
 ├── components/
-│   ├── About/
-│   ├── Character/
-│   ├── Contact/
-│   ├── Featured/
-│   ├── FeaturedWork/
-│   ├── GradualBlur/
-│   ├── HeroSection/
-│   ├── HorizontalScroll/
-│   ├── Navbar/
-│   ├── Projects/
-│   ├── SiteFooter/
-│   └── SmoothScroll/
-├── public/
-└── package.json
+│   ├── Contact/          # Interactive contact section with quick links
+│   ├── Featured/         # Services grid, subheaders & featured media
+│   ├── HeroSection/      # Parallax interactive hero section with 3D liquid
+│   ├── HorizontalScroll/ # ScrollTrigger pinned dynamic text
+│   ├── LiquidEther/      # WebGL fluid shader animation engine
+│   ├── Navbar/           # Desktop & mobile responsive navigation menu
+│   ├── Projects/         # Selected work & ventures showcase
+│   └── SiteFooter/       # Global footer & social channels
+├── public/               # High-resolution assets, portraits & icons
+└── package.json          # Dependencies & npm scripts
 ```
 
-## 🎨 Key Components
+---
 
-- **HeroSection**: Main landing section with dynamic animations
-- **FeaturedWork**: Showcase of featured projects and work
-- **HorizontalScroll**: Smooth horizontal scrolling sections
-- **Contact**: Interactive contact form
-- **GradualBlur**: Advanced blur effects for visual depth
-- **Character**: 3D character components with React Three Fiber
+## 🌐 Featured Works & Live Demos
 
-## 📄 License & Credits
+| Project Name | Stack | Preview Link |
+|---|---|---|
+| **Royal Wedding Experience (Asem & Yara)** | React, WebGL, Tailwind | [Live Demo](https://shaker15s.github.io/weedy-ramo/) |
+| **SNAI Digital Bookstore & E-Commerce** | Django, PostgreSQL, Python | [Live Demo](https://snai.pythonanywhere.com/category/) |
+| **Interactive 3D Developer Portfolio** | React, Three.js, GSAP | [Live Demo](https://shaker17s.github.io/3d_portfolio/#projects) |
+| **Bots LT Proposal Interactive Suite** | JavaScript, SaaS Tooling | [Live Tool](https://bots.lt/Tools/Propose/#) |
+| **Valentein Interactive Web Experience** | HTML5, Canvas, Web Animations | [Live Demo](https://shaker17s.github.io/Valenteinn/) |
+| **AI-Driven Recruitment Ecosystem** | Python, Django, OpenAI LLM | [GitHub Repository](https://github.com/shaker15s) |
+| **Air Canvas — Gesture Drawing App** | Python, OpenCV, MediaPipe | [GitHub Repository](https://github.com/shaker15s) |
 
-This project was developed by [Mtarif](https://mtarif.com) for a client and is proprietary.
+---
 
-- **Developer**: [Mtarif](https://mtarif.com) (Contact for work at [www.mtarif.com](https://www.mtarif.com))
-- **Client / Owner**: Elfekky
-- **Live Site**: [elfekky.site](https://elfekky.site)
+## 💻 Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shaker15s/portfolioo.git
+   cd portfolioo
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for Production**:
+   ```bash
+   npm run build
+   npm start
+   ```
+
+---
+
+## 📬 Contact & Connect
+
+- **Name**: Shaker Abdallah Tasaheed
+- **Email**: [shakerabdallah66@gmail.com](mailto:shakerabdallah66@gmail.com)
+- **WhatsApp**: [+20 120 140 2361](https://wa.me/201201402361)
+- **GitHub**: [shaker15s](https://github.com/shaker15s) & [Shaker17s](https://github.com/Shaker17s)
+- **LinkedIn**: [Shaker Abdallah](https://www.linkedin.com/in/shaker-abdallah-79b0a1339/)
+
+---
+
+© 2026 Shaker Abdallah Tasaheed. All rights reserved.

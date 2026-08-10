@@ -2,24 +2,24 @@ import React from 'react'
 
 const SERVICES = [
   {
-    title: 'Websites and App Development',
+    title: 'Full-Stack Web Development',
     body:
-      'From idea to launch, full cycle development including frontend, backend, and deployment.',
+      'Designing and delivering high-performance web applications using React, Next.js, Django, and modern backend APIs.',
   },
   {
-    title: 'AI Automation Systems',
+    title: 'AI & LLM Integration',
     body:
-      'Designing and integrating AI Automation to optimize workflows, reduce manual effort, and enhance system intelligence.',
+      'Architecting intelligent automation systems, custom RAG pipelines, and ChatGPT API integrations for real-world products.',
   },
   {
-    title: 'UI/UX Design',
+    title: 'Data Analytics & Pipelines',
     body:
-      'Minimal, clean, and user-focused interfaces aligned with modern standards.',
+      'Building robust ETL pipelines, SQL databases, and interactive Power BI & Tableau dashboards for actionable business insights.',
   },
   {
-    title: 'Brand Identity',
+    title: 'Prompt Engineering & Safety',
     body:
-      'Creating complete visual identities that define and elevate digital products.',
+      'Optimizing LLM prompts, Chain-of-Thought reasoning, hallucination detection, and red-teaming AI systems.',
   },
 ]
 
@@ -28,10 +28,10 @@ const SubHeader = () => {
     <div className='relative md:absolute md:top-1/5 left-0 md:left-1/2 w-full md:-translate-x-1/2 md:mt-40 z-10 flex flex-col md:items-start items-center px-5 md:px-0'>
       <div className='w-full md:w-1/2 text-base md:text-2xl flex flex-col gap-3 md:gap-4 leading-relaxed md:leading-snug text-center md:text-left'>
         <p>
-          Abdelrahman Elfekky is an AI Engineer and Data Analyst building real-world digital systems across web, mobile, and AI.
+          Shaker Abdallah is a Full-Stack Engineer, AI Specialist, and Data Analyst building intelligent digital systems across web, mobile, and AI.
         </p>
         <p>
-          He integrates AI Automation into every product, engineering complete ecosystems instead of standalone tools.
+          He integrates AI Automation into modern software architectures, engineering complete data-driven ecosystems instead of standalone tools.
         </p>
       </div>
 

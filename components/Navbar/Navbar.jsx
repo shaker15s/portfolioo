@@ -10,8 +10,8 @@ import Link from "next/link";
 import MusicButton from "./MusicButton";
 
 // Shared contact targets — same as Menu/Contact/SiteFooter.
-const EMAIL = "abdelruhamanelfekky@gmail.com";
-const WHATSAPP_URL = "https://wa.me/201080620024";
+const EMAIL = "shakerabdallah66@gmail.com";
+const WHATSAPP_URL = "https://wa.me/201201402361";
 
 // Smooth-scroll to an in-page section. Uses the global Lenis instance
 // exposed by SmoothScroll (window.__lenis) so mobile nav clicks feel
@@ -90,7 +90,7 @@ function Navbar() {
             className="tracking-wider font-semibold text-2xl cursor-pointer text-fg"
             style={{ letterSpacing: "-0.03em" }}
           >
-            ELFEKKY
+            SHAKER
           </Link>
           <button
             type="button"

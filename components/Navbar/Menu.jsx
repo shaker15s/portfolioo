@@ -3,8 +3,8 @@ import React, { useEffect, useRef, useState } from "react";
 
 // Real contact info — kept in sync with `Contact`, `SiteFooter`, and
 // `LetsTalk`. Update all four if these ever change.
-const EMAIL = "abdelruhamanelfekky@gmail.com";
-const WHATSAPP_URL = "https://wa.me/201080620024";
+const EMAIL = "shakerabdallah66@gmail.com";
+const WHATSAPP_URL = "https://wa.me/201201402361";
 
 // Smoothly scrolls to a section by id. Uses the active Lenis instance
 // (exposed by SmoothScroll on `window.__lenis`) when available, so the

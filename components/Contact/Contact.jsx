@@ -6,8 +6,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 // Real contact info — kept in sync with what's already in `SiteFooter`.
 // If any of these change, update them in both places.
-const EMAIL = "abdelruhamanelfekky@gmail.com";
-const WHATSAPP_URL = "https://wa.me/201080620024";
+const EMAIL = "shakerabdallah66@gmail.com";
+const WHATSAPP_URL = "https://wa.me/201201402361";
 
 const ArrowUpRight = () => (
   <svg
