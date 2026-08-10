@@ -99,7 +99,7 @@ const Contact = () => {
         {splitChars("have a project in mind?")}
       </div>
 
-      <h2 id="ct-headline" ref={headlineRef}>
+      <h2 id="ct-headline" ref={headlineRef} className="whitespace-nowrap">
         {splitChars("let's talk.")}
       </h2>
 

@@ -28,7 +28,7 @@ const LetsTalk = () => {
     <a
       href={`mailto:${EMAIL}`}
       aria-label={`Email ${EMAIL}`}
-      className="nav_btn_lg nav_btn_dark flex items-center justify-center hover:bg-brblue py-6"
+      className="nav_btn_lg nav_btn_dark flex items-center justify-center whitespace-nowrap hover:bg-brblue py-6"
       onMouseEnter={() => {
         api.start({ x: 20 });
         opacityApi.start({ opacity: 0, x: 5 });
@@ -41,7 +41,7 @@ const LetsTalk = () => {
       }}
     >
       <animated.span style={opacitySpringsReverse} className="opacity-0">➔</animated.span>
-      <animated.span style={springs}>LET'S TALK &nbsp;</animated.span>
+      <animated.span style={springs} className="whitespace-nowrap">LET'S TALK &nbsp;</animated.span>
       <animated.span style={opacitySprings}>&nbsp;•&nbsp;</animated.span>
     </a>
   );

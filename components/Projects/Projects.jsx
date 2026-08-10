@@ -30,16 +30,6 @@ const PROJECTS = [
     href: "https://bots.lt/Tools/Propose/#",
     kind: "Live Tool",
   },
-  {
-    name: "AI-Driven Recruitment Ecosystem",
-    href: "https://github.com/shaker15s",
-    kind: "Full-Stack AI",
-  },
-  {
-    name: "Air Canvas — Gesture Drawing App",
-    href: "https://github.com/shaker15s",
-    kind: "Computer Vision",
-  },
 ];
 
 const VENTURES = [
