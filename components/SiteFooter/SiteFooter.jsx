@@ -74,7 +74,7 @@ const SiteFooter = () => {
               <LinkedinIcon />
             </a>
             <a
-              href="https://github.com/Shaker17s"
+              href="https://github.com/shaker15s"
               target="_blank"
               rel="noreferrer"
               aria-label="GitHub"

@@ -59,11 +59,11 @@ portfolioo/
 
 | Project Name | Stack | Preview Link |
 |---|---|---|
-| **Royal Wedding Experience (Asem & Yara)** | React, WebGL, Tailwind | [Live Demo](https://shaker15s.github.io/weedy-ramo/) |
-| **SNAI Digital Bookstore & E-Commerce** | Django, PostgreSQL, Python | [Live Demo](https://snai.pythonanywhere.com/category/) |
-| **Interactive 3D Developer Portfolio** | React, Three.js, GSAP | [Live Demo](https://shaker17s.github.io/3d_portfolio/#projects) |
-| **Bots LT Proposal Interactive Suite** | JavaScript, SaaS Tooling | [Live Tool](https://bots.lt/Tools/Propose/#) |
-| **Valentein Interactive Web Experience** | HTML5, Canvas, Web Animations | [Live Demo](https://shaker17s.github.io/Valenteinn/) |
+| **RTC Charity Platform (Awwwards Design)** | React, Next.js, Framer Motion | [Live Site](https://rtc-kohl.vercel.app/) |
+| **Royal Wedding Experience (Asem & Yara)** | React, WebGL, Tailwind | [Live Site](https://door-weedy.vercel.app/) |
+| **Interactive 3D Developer Portfolio** | React, Three.js, GSAP | [Live Site](https://shaker15s.github.io/portfolio/) |
+| **Sara Interactive Proposal Web App** | React, Tailwind, Animations | [Live Site](https://sara-poroposal.vercel.app/) |
+| **Bots LT Proposal Interactive Suite** | JavaScript, Web Tooling | [Live Tool](https://bots.lt/Tools/Propose/#) |
 | **AI-Driven Recruitment Ecosystem** | Python, Django, OpenAI LLM | [GitHub Repository](https://github.com/shaker15s) |
 | **Air Canvas — Gesture Drawing App** | Python, OpenCV, MediaPipe | [GitHub Repository](https://github.com/shaker15s) |
 
@@ -100,7 +100,7 @@ portfolioo/
 - **Name**: Shaker Abdallah Tasaheed
 - **Email**: [shakerabdallah66@gmail.com](mailto:shakerabdallah66@gmail.com)
 - **WhatsApp**: [+20 120 140 2361](https://wa.me/201201402361)
-- **GitHub**: [shaker15s](https://github.com/shaker15s) & [Shaker17s](https://github.com/Shaker17s)
+- **GitHub**: [shaker15s](https://github.com/shaker15s)
 - **LinkedIn**: [Shaker Abdallah](https://www.linkedin.com/in/shaker-abdallah-79b0a1339/)
 
 ---

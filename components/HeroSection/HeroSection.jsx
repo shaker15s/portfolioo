@@ -115,16 +115,28 @@ const HeroSection = () => {
       onComplete: () => {
         setLoaderDone(true);
         document.body.style.overflow = "";
+        if (loaderRef.current) {
+          loaderRef.current.style.display = "none";
+          loaderRef.current.style.pointerEvents = "none";
+        }
         initParallax();
       },
     });
+
+    // Safety fallback: unlock scrolling after max 2.5s on mobile
+    const unlockTimer = setTimeout(() => {
+      document.body.style.overflow = "";
+      if (loaderRef.current) {
+        loaderRef.current.style.pointerEvents = "none";
+      }
+    }, 2500);
 
     const counter = { value: 0 };
 
     // Loader counter: 0 → 100
     tl.to(counter, {
       value: 100,
-      duration: 2,
+      duration: 1.2,
       ease: "power2.inOut",
       onUpdate: () => {
         if (loaderCounterRef.current) {
@@ -133,19 +145,30 @@ const HeroSection = () => {
       },
     }, "anim");
 
-    // Loader slide up
+    // Loader slide up & unlock scrolling
     tl.to(loaderRef.current, {
       y: "-100%",
-      duration: 1.8,
+      duration: 1.2,
       ease: "power3.out",
-    }, "anim+=2.2");
+      onStart: () => {
+        document.body.style.overflow = "";
+        if (loaderRef.current) {
+          loaderRef.current.style.pointerEvents = "none";
+        }
+      },
+      onComplete: () => {
+        if (loaderRef.current) {
+          loaderRef.current.style.display = "none";
+        }
+      }
+    }, "anim+=1.2");
 
     // Counter fade out
     tl.to(loaderCounterRef.current, {
       autoAlpha: 0,
-      duration: 1,
+      duration: 0.6,
       ease: "power2.out",
-    }, "anim+=2");
+    }, "anim+=1.0");
 
     // Heading chars animation
     tl.to(headingChars, {
@@ -185,6 +208,7 @@ const HeroSection = () => {
     }, "anim+=4.5");
 
     return () => {
+      clearTimeout(unlockTimer);
       tl.kill();
       endLineTrigger.kill();
       if (parallaxInstanceRef.current) {

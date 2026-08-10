@@ -6,44 +6,39 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const PROJECTS = [
   {
+    name: "RTC Charity Platform (Awwwards Design)",
+    href: "https://rtc-kohl.vercel.app/",
+    kind: "Live Site",
+  },
+  {
     name: "Royal Wedding Experience (Asem & Yara)",
-    href: "https://shaker15s.github.io/weedy-ramo/",
-    kind: "Live Web App",
+    href: "https://door-weedy.vercel.app/",
+    kind: "Live Site",
   },
   {
-    name: "SNAI Digital Bookstore & E-Commerce",
-    href: "https://snai.pythonanywhere.com/category/",
-    kind: "Live E-Commerce",
-  },
-  {
-    name: "Interactive 3D Developer Portfolio",
-    href: "https://shaker17s.github.io/3d_portfolio/#projects",
+    name: "Interactive 3D Neural Portfolio",
+    href: "https://shaker15s.github.io/portfolio/",
     kind: "Live 3D WebGL",
+  },
+  {
+    name: "Sara Interactive Proposal Web App",
+    href: "https://sara-poroposal.vercel.app/",
+    kind: "Live Site",
   },
   {
     name: "Bots LT Proposal Interactive Suite",
     href: "https://bots.lt/Tools/Propose/#",
-    kind: "Live Web Tool",
-  },
-  {
-    name: "Valentein Interactive Web Experience",
-    href: "https://shaker17s.github.io/Valenteinn/",
-    kind: "Live Web App",
+    kind: "Live Tool",
   },
   {
     name: "AI-Driven Recruitment Ecosystem",
-    href: "https://github.com/Shaker17s",
+    href: "https://github.com/shaker15s",
     kind: "Full-Stack AI",
   },
   {
     name: "Air Canvas — Gesture Drawing App",
-    href: "https://github.com/Shaker17s",
+    href: "https://github.com/shaker15s",
     kind: "Computer Vision",
-  },
-  {
-    name: "End-to-End Data Analytics Pipeline",
-    href: "https://github.com/Shaker17s",
-    kind: "ETL / Data Analytics",
   },
 ];
 
@@ -51,7 +46,7 @@ const VENTURES = [
   {
     name: "AI & LLM Solutions",
     role: "AI Engineer & Prompt Architect",
-    href: "https://github.com/Shaker17s",
+    href: "https://github.com/shaker15s",
     kind: "Active",
     note:
       "Designing custom RAG workflows, ChatGPT API integrations, and Chain-of-Thought prompting systems for clients.",
@@ -59,7 +54,7 @@ const VENTURES = [
   {
     name: "Full-Stack Web Development",
     role: "Lead Web Developer",
-    href: "https://github.com/Shaker17s",
+    href: "https://github.com/shaker15s",
     kind: "Active",
     note:
       "Engineering modern Next.js, React, and Django web platforms with optimized sub-100ms database response times.",
@@ -67,7 +62,7 @@ const VENTURES = [
   {
     name: "Data Analytics & BI",
     role: "Data & ETL Specialist",
-    href: "https://github.com/Shaker17s",
+    href: "https://github.com/shaker15s",
     kind: "Active",
     note:
       "Transforming complex datasets with Python, SQL, and interactive Power BI dashboards to empower business decisions.",
