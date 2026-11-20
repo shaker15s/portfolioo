@@ -592,6 +592,67 @@ html {
   transform: translate(0.6vw, -0.6vw);
 }
 
+/* Real screenshot of the live product, shown beside its row. */
+.pj-thumb {
+  width: 22vw;
+  aspect-ratio: 1200 / 542;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.8vw;
+  border: 1px solid var(--color-border);
+  flex-shrink: 0;
+  transition: transform 0.4s ease;
+}
+
+.pj-link:hover .pj-thumb {
+  transform: scale(1.02);
+}
+
+/* Secondary links (code, socials) sit outside the main row link so the
+   markup never nests anchors. */
+.pj-sublinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6vw 1.6vw;
+  padding: 0 0 1.6vw 6.5vw;
+  margin-top: -0.6vw;
+}
+
+.pj-sublinks a {
+  font-size: 0.95vw;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-text);
+  opacity: 0.6;
+  text-decoration: none;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.pj-sublinks a:hover,
+.pj-sublinks a:focus-visible {
+  opacity: 1;
+  color: var(--color-accent);
+}
+
+.pj-list--compact .pj-link {
+  padding: 1.2vw 0;
+}
+
+.pj-list--compact .pj-name {
+  font-size: 2vw;
+  text-transform: none;
+}
+
+.pj-footnote {
+  margin-top: 2vw;
+  font-size: 1vw;
+  line-height: 1.5;
+  opacity: 0.7;
+  max-width: 80ch;
+}
+
 @media (max-width: 1024px) {
   .about-inline-services__head {
     padding-bottom: 1.8vw;
@@ -678,6 +739,40 @@ html {
   .pj-head--secondary {
     margin-top: 8vw;
   }
+
+  .pj-row--media .pj-link {
+    flex-wrap: wrap;
+  }
+
+  .pj-thumb {
+    order: 3;
+    width: 100%;
+    border-radius: 2vw;
+  }
+
+  .pj-sublinks {
+    gap: 2vw 4vw;
+    padding: 0 0 4vw 12vw;
+    margin-top: -2vw;
+  }
+
+  .pj-sublinks a {
+    font-size: 2.6vw;
+    padding: 1vw 0;
+  }
+
+  .pj-list--compact .pj-link {
+    padding: 3vw 0;
+  }
+
+  .pj-list--compact .pj-name {
+    font-size: 4.2vw;
+  }
+
+  .pj-footnote {
+    margin-top: 4vw;
+    font-size: 2.6vw;
+  }
 }
 
 @media (max-width: 480px) {
@@ -721,6 +816,15 @@ html {
   .pj-arrow {
     width: 8vw;
     height: 8vw;
+  }
+
+  .pj-sublinks a,
+  .pj-footnote {
+    font-size: 3.2vw;
+  }
+
+  .pj-list--compact .pj-name {
+    font-size: 5vw;
   }
 }
 

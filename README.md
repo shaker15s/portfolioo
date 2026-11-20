@@ -1,4 +1,4 @@
-# 🌟 Shaker Abdallah Tasaheed — 3D Interactive Neural Portfolio
+# Shaker Abdallah: Portfolio
 
 [![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
@@ -6,7 +6,9 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38BDF8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-Animations-green?style=for-the-badge&logo=greensock)](https://greensock.com/gsap/)
 
-A state-of-the-art, interactive 3D WebGL personal portfolio engineered for **Shaker Abdallah Tasaheed** — Full-Stack Web Developer, AI & Machine Learning Engineer, and Data Analytics Specialist.
+Personal portfolio of **Shaker Abdallah**: Founder of [Lo2ta](https://getlo2ta.com), Mechanical Engineering student at Al-Azhar, building AI-native products (full-stack Django · Next.js and Arabic-first AI agents).
+
+Live: https://portfolioo-seven-gilt.vercel.app · LinkedIn: https://www.linkedin.com/in/shaker-abdallah-8a648a451/
 
 ---
 
@@ -14,7 +16,7 @@ A state-of-the-art, interactive 3D WebGL personal portfolio engineered for **Sha
 
 - **⚡ Immersive WebGL & LiquidEther Background**: Custom 3D particle and fluid canvas interactive simulation driven by mouse motion.
 - **🎨 Modern Aesthetic & Smooth Scrolling**: Powered by **Lenis**, **GSAP ScrollTrigger**, and **Framer Motion** for a liquid-smooth experience.
-- **👨‍💻 Personal Profile Integration**: Showcasing real-world full-stack platforms, computer vision applications, and data analytics pipelines.
+- **👨‍💻 Personal Profile Integration**: The same projects, wording and links as the LinkedIn profile.
 - **📱 Fully Responsive**: Custom mobile drawer navigation and touch-optimized gyroscope/parallax physics.
 - **🌙 Dynamic Theme System**: Built-in light and dark mode switching with zero-flash pre-paint bootstrap script.
 
@@ -27,7 +29,7 @@ A state-of-the-art, interactive 3D WebGL personal portfolio engineered for **Sha
 - **Animation Engines**: GSAP, Framer Motion, React Spring
 - **Smooth Scroll**: Lenis
 - **Styling**: Tailwind CSS & CSS Custom Properties
-- **Deployment**: Vercel / GitHub Pages
+- **Deployment**: Vercel
 
 ---
 
@@ -57,15 +59,12 @@ portfolioo/
 
 ## 🌐 Featured Works & Live Demos
 
-| Project Name | Stack | Preview Link |
+| Project | Stack | Links |
 |---|---|---|
-| **RTC Charity Platform (Awwwards Design)** | React, Next.js, Framer Motion | [Live Site](https://rtc-kohl.vercel.app/) |
-| **Royal Wedding Experience (Asem & Yara)** | React, WebGL, Tailwind | [Live Site](https://door-weedy.vercel.app/) |
-| **Interactive 3D Developer Portfolio** | React, Three.js, GSAP | [Live Site](https://shaker15s.github.io/portfolio/) |
-| **Sara Interactive Proposal Web App** | React, Tailwind, Animations | [Live Site](https://sara-poroposal.vercel.app/) |
-| **Bots LT Proposal Interactive Suite** | JavaScript, Web Tooling | [Live Tool](https://bots.lt/Tools/Propose/#) |
-| **AI-Driven Recruitment Ecosystem** | Python, Django, OpenAI LLM | [GitHub Repository](https://github.com/shaker15s) |
-| **Air Canvas — Gesture Drawing App** | Python, OpenCV, MediaPipe | [GitHub Repository](https://github.com/shaker15s) |
+| **Lo2ta (لقطة)**: local marketplace for Nasr City sellers | Next.js, Supabase, Cloudflare Workers & R2 | [getlo2ta.com](https://getlo2ta.com) |
+| **Digital Bookstore Platform** | Django, PostgreSQL, Bootstrap | [Live demo](https://django-bookstore-teal.vercel.app) · [Code](https://github.com/shaker15s/django-bookstore) |
+| **Mizan (ميزان)**: Arabic-first agentic ERP | Python | In development, not public yet |
+| **Personal Portfolio Website** (this repo) | Next.js, Three.js, GSAP | [Live](https://portfolioo-seven-gilt.vercel.app) |
 
 ---
 
@@ -97,12 +96,13 @@ portfolioo/
 
 ## 📬 Contact & Connect
 
-- **Name**: Shaker Abdallah Tasaheed
+- **Name**: Shaker Abdallah
 - **Email**: [shakerabdallah66@gmail.com](mailto:shakerabdallah66@gmail.com)
 - **WhatsApp**: [+20 120 140 2361](https://wa.me/201201402361)
 - **GitHub**: [shaker15s](https://github.com/shaker15s)
-- **LinkedIn**: [Shaker Abdallah](https://www.linkedin.com/in/shaker-abdallah-79b0a1339/)
+- **LinkedIn**: [Shaker Abdallah](https://www.linkedin.com/in/shaker-abdallah-8a648a451/)
+- **Lo2ta**: [getlo2ta.com](https://getlo2ta.com)
 
 ---
 
-© 2026 Shaker Abdallah Tasaheed. All rights reserved.
+© 2026 Shaker Abdallah. All rights reserved.

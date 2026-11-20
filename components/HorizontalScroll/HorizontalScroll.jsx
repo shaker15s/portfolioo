@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const TEXT = "I Engineer High-Performance Web Applications & AI Systems.";
+const TEXT = "I Build Real Products End-to-End, Not Just Demos.";
 
 const HorizontalScroll = () => {
   const wrapperRef = useRef(null);

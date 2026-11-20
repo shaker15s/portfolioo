@@ -61,12 +61,15 @@ const SiteFooter = () => {
         <div className="footer-brand">
           <h1 className="f-logo">SHAKER</h1>
           <p className="f-desc">
-            Shaker Abdallah builds more than digital products. <br />
-            He builds intelligent systems that think and scale.
+            Founder of{" "}
+            <a href="https://getlo2ta.com" target="_blank" rel="noreferrer">
+              Lo2ta (getlo2ta.com)
+            </a>
+            . Mechanical engineering student at Al-Azhar, building AI-native products.
           </p>
           <div className="f-socials">
             <a
-              href="https://www.linkedin.com/in/shaker-abdallah-79b0a1339/"
+              href="https://www.linkedin.com/in/shaker-abdallah-8a648a451/"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -87,19 +90,16 @@ const SiteFooter = () => {
           <div className="f-col">
             <h3>EXPLORE</h3>
             <a href="#projects-section">Projects</a>
-            <a href="#ventures">Ventures</a>
+            <a href="#certifications">Certifications</a>
+            <a href="https://getlo2ta.com" target="_blank" rel="noreferrer">
+              Lo2ta
+            </a>
             <a href="#contact-section">Get in touch</a>
           </div>
           <div className="f-col">
             <h3>CONTACT</h3>
-            <a href="mailto:shakerabdallah66@gmail.com">
-              shakerabdallah66@gmail.com
-            </a>
-            <a
-              href="https://wa.me/201201402361"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="mailto:shakerabdallah66@gmail.com">shakerabdallah66@gmail.com</a>
+            <a href="https://wa.me/201201402361" target="_blank" rel="noreferrer">
               WhatsApp: +20 120 140 2361
             </a>
             <a href="tel:+201201402361">Phone: +20 120 140 2361</a>
@@ -107,7 +107,7 @@ const SiteFooter = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} Shaker Abdallah Tasaheed. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Shaker Abdallah. All rights reserved.</p>
         <p>Built with Next.js &amp; WebGL</p>
       </div>
     </footer>

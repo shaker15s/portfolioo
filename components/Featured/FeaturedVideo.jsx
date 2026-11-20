@@ -31,7 +31,7 @@ const FeaturedVideo = ({refForward, ...props }) => {
     >
       <Image
         src="/shaker_portrait_red.jpg"
-        alt="Shaker Abdallah Tasaheed"
+        alt="Shaker Abdallah"
         fill
         priority
         sizes="(max-width: 768px) 80vw, 40vw"

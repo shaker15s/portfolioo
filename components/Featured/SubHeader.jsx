@@ -4,22 +4,22 @@ const SERVICES = [
   {
     title: 'Full-Stack Web Development',
     body:
-      'Designing and delivering high-performance web applications using React, Next.js, Django, and modern backend APIs.',
+      'Building real products end-to-end with Python/Django, React/Next.js, PostgreSQL and Supabase, from the data model to the deployed site.',
   },
   {
-    title: 'AI & LLM Integration',
+    title: 'AI Agents & LLM Evaluation',
     body:
-      'Architecting intelligent automation systems, custom RAG pipelines, and ChatGPT API integrations for real-world products.',
+      'Building Arabic-first AI agents with real guardrails: permission-aware, audited actions, and evaluation in Arabic and English.',
   },
   {
-    title: 'Data Analytics & Pipelines',
+    title: 'Product & Founder Work',
     body:
-      'Building robust ETL pipelines, SQL databases, and interactive Power BI & Tableau dashboards for actionable business insights.',
+      "Starting from the user's problem: interviewing real sellers, making product decisions, and shipping Lo2ta from idea to a live site.",
   },
   {
-    title: 'Prompt Engineering & Safety',
+    title: 'Engineering Habits',
     body:
-      'Optimizing LLM prompts, Chain-of-Thought reasoning, hallucination detection, and red-teaming AI systems.',
+      "A mechanical engineering student's habits: structured problem solving, careful verification, and clear writing.",
   },
 ]
 
